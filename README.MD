@@ -29,7 +29,7 @@ Esse código foi desenvolvido com os intens a seguir:
 
 -   `npm run dist`: Compila os arquivos TypeScript para JavaScript em um diretório chamado dist.
 -   `npm run start:dev`: Inicia o servidor no modo Dev. com as variáveis de de desenvolvimento carregadas do arquivo .env.
--   `npm run start:watch`: Inicia o servidor no modo Dev. com o suporte de carregamento automático quando há alterações na aplicação.
+-   `npm run start:watch`: Inicia o servidor no modo Dev. com o suporte de recarregamento automático quando há alterações na aplicação.
 -   `npm run start:dist`: Compila o projeto e inicia a versão compilada no diretório dist.
 
 # Como usar?
@@ -38,8 +38,8 @@ Para clonar essa aplicação, você vai precisar do [Git](https://git-scm.com), 
 
 ```bash
 
-# Install dependencies
+# Instala as dependências
 $ npm install
-# Install dependencies
+# Inicia a aplicação com suporte de recarregamento automático
 $ npm run start:watch
 ```
