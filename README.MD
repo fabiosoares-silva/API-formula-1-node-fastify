@@ -3,7 +3,7 @@
   <img src="./.github/assets/arte-formula-1.png" alt="Logo" height="200">
   <h1 align="center"><strong>Minimal API Fórmula 1 - NodeJs e Fastify</strong></h1>
   <p align="center">
-	  API desenvolvida com requirimentos mínimos, utilizando <b>Nodejs</b>, <b>Typescript</b> e <b>Fastify</b> .
+	  API desenvolvida com requerimentos mínimos, utilizando <b>Nodejs</b>, <b>Typescript</b> e <b>Fastify</b> .
   </p>
 
 </div>
