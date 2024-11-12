@@ -1,6 +1,7 @@
 import fastify from 'fastify';
 import cors from '@fastify/cors';
 import {teams, drivers} from './repositories/data-repository';
+import {DriverParams} from './models/model-interface';
 
 const server = fastify({logger: true});
 
@@ -20,10 +21,6 @@ server.get<{Params: DriverParams}>('/drivers/:id', async (request, response) => 
         return {driver};
     }
 });
-
-interface DriverParams {
-    id: string;
-}
 
 server.get('/teams', async (request, response) => {
     response.type('aplication/json').code(200);
